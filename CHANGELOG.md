@@ -2,6 +2,9 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.1 (2023-04-27)
+
+
 ## v0.2.0 (2023-04-15)
 ### Feature
 * **copying:** From sources ([`fecdb1b`](https://github.com/lukasz-lobocki/lobo_wireless/commit/fecdb1b9d4b5794ed4412160fbbc11bc1016003b))
