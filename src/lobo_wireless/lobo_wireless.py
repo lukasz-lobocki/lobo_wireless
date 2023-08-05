@@ -178,12 +178,12 @@ class Wireless:
             for _l in (self._wait_loops, 0, -1):
                 if self._wlan.isconnected():
                     # Emit IP, exit function
-                    _output.append(" {i}".format(i=self._wlan.ifconfig()[0]))
+                    _output.append("{i}".format(i=self._wlan.ifconfig()[0]))
                     return _output
                 if _l > 1:
                     # Delay next loop
-                    _output.append(" Wait {l}".format(l=_l))
-                    DEBUG and print(" Wait {l}".format(l=_l))
+                    _output.append("Wait {l}".format(l=_l))
+                    DEBUG and print("Wait {l}".format(l=_l))
                     time.sleep(_WAIT_SLEEP)
 
             # Unsuccessful, if still in the function
